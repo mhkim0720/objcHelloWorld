@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		22786AD1296D2C8300CE76F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AD0296D2C8300CE76F3 /* main.m */; };
+		22786AD9296D491D00CE76F3 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AD8296D491D00CE76F3 /* Rectangle.m */; };
+		22786ADC296D4BD400CE76F3 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786ADB296D4BD400CE76F3 /* Square.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		22786ACD296D2C8300CE76F3 /* objcHelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objcHelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		22786AD0296D2C8300CE76F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22786AD7296D491D00CE76F3 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		22786AD8296D491D00CE76F3 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		22786ADA296D4BD400CE76F3 /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		22786ADB296D4BD400CE76F3 /* Square.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				22786AD0296D2C8300CE76F3 /* main.m */,
+				22786AD7296D491D00CE76F3 /* Rectangle.h */,
+				22786AD8296D491D00CE76F3 /* Rectangle.m */,
+				22786ADA296D4BD400CE76F3 /* Square.h */,
+				22786ADB296D4BD400CE76F3 /* Square.m */,
 			);
 			path = objcHelloWorld;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22786ADC296D4BD400CE76F3 /* Square.m in Sources */,
 				22786AD1296D2C8300CE76F3 /* main.m in Sources */,
+				22786AD9296D491D00CE76F3 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
