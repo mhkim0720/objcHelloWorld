@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
     int width;
 }
 
+//@property width;
+//@property he
+
 
 +(id)rectangle;
 +(id)rectangle:(int)width height:(int)height;

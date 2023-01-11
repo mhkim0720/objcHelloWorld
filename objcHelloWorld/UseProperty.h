@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Rectangle.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -19,6 +20,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 //property declare
 @property (readonly) int size;
+
+-(BOOL)isEqual:(id)object;
+
+-(id)initWithWidth:(int)newWidth height:(int)newHeight;
+
 
 @end
 
