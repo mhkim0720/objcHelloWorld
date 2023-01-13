@@ -9,11 +9,36 @@
 #import "Rectangle.h"
 #import "Square.h"
 #import "UseProperty.h"
+#import "Tracer.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        ///*
+        //11 Chapter - Memory
+        //ARC (iOS5~ )
+        //ptr = nil -> release memory, Dealloc
+        NSLog(@"==========start");
         
+        Tracer * obj1 = [[Tracer alloc]init];
+        obj1.name = @"Obj1";
+        
+        obj1 = nil;
+        
+        Tracer * obj2 = [[Tracer alloc] init];
+        obj2.name = @"Obj2";
+        
+        Tracer * obj3 = obj2;
+        obj2 = nil;
+        
+        NSLog(@"==========end");
+        
+        //Object Lifecycle,
+        //strong(default -> own object ),
+        //weak, unsafe_unretained, autoreleaing (NSError) -> (un own object).
+        
+        
+        /*
         //10 Foundation Framework - Time And Date
         //NSDate, NSDataFormatter, NSDateComponent
         NSDate * now = [NSDate date];
@@ -44,9 +69,10 @@ int main(int argc, const char * argv[]) {
         NSDateComponents * comp2 = [calendar components:unit fromDate:now];
         
         NSLog(@"weekday : %ld" ,[ comp2 weekday]);
+         */
         
         /*
-        //9 Chapter Colltion.
+        //9 Chapter Collection.
         //NSArray -> NSMutableArray, Operate on an index basis.
         NSArray * arr1 = [[NSArray alloc] initWithObjects:@"A",@"B",@"C", nil];
         NSArray * arr2 = @[@"1",@"2",@"3"];

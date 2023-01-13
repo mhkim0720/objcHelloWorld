@@ -11,6 +11,7 @@
 		22786AD9296D491D00CE76F3 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AD8296D491D00CE76F3 /* Rectangle.m */; };
 		22786ADC296D4BD400CE76F3 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786ADB296D4BD400CE76F3 /* Square.m */; };
 		22786ADF296E76F400CE76F3 /* UseProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786ADE296E76F400CE76F3 /* UseProperty.m */; };
+		22786AE22971377300CE76F3 /* Tracer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AE12971377300CE76F3 /* Tracer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		22786ADB296D4BD400CE76F3 /* Square.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 		22786ADD296E76F400CE76F3 /* UseProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UseProperty.h; sourceTree = "<group>"; };
 		22786ADE296E76F400CE76F3 /* UseProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseProperty.m; sourceTree = "<group>"; };
+		22786AE02971377300CE76F3 /* Tracer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tracer.h; sourceTree = "<group>"; };
+		22786AE12971377300CE76F3 /* Tracer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tracer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				22786ADB296D4BD400CE76F3 /* Square.m */,
 				22786ADD296E76F400CE76F3 /* UseProperty.h */,
 				22786ADE296E76F400CE76F3 /* UseProperty.m */,
+				22786AE02971377300CE76F3 /* Tracer.h */,
+				22786AE12971377300CE76F3 /* Tracer.m */,
 			);
 			path = objcHelloWorld;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				22786AD1296D2C8300CE76F3 /* main.m in Sources */,
 				22786ADF296E76F400CE76F3 /* UseProperty.m in Sources */,
 				22786AD9296D491D00CE76F3 /* Rectangle.m in Sources */,
+				22786AE22971377300CE76F3 /* Tracer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
