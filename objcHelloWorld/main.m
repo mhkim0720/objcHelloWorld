@@ -13,6 +13,7 @@
 #import "Student.h"
 #import "Archiving.h"
 #import "Song.h"
+#import "Album.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -30,9 +31,20 @@ int main(int argc, const char * argv[]) {
         Song * song5 = [Song songWithTitle:@"title5" artist:@"artist5"];
         
         //[song1 play];
+        Album * album = [[Album alloc] init];
+        [album addSong:song3];
+        [album addSong:song4];
+        [album addSong:song5];
         
+        Song * ret1 = [album searchSong:@"title4"];
+        NSLog(@"title4 search : %@",ret1);
         
+        Song * ret2 = [album searchSong:song2.title];
+        NSLog(@"song2 search : %@",ret2);
         
+        [album removeSong:song5.title];
+        
+        [album play];
         
         /*
         //13 Chapter Archiving And Block

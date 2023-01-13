@@ -27,4 +27,10 @@
     NSLog(@"Playing~~~ %@",_title);
 }
 
+-(BOOL)isEqualToSongTitle:(NSString *)title{
+    return [_title isEqualToString:title];
+}
+
+
+
 @end

@@ -16,6 +16,7 @@
 		22786AEB2971412A00CE76F3 /* NSMutableArray+IntExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AEA2971412A00CE76F3 /* NSMutableArray+IntExt.m */; };
 		22786AEE2971455800CE76F3 /* Archiving.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AED2971455800CE76F3 /* Archiving.m */; };
 		22786AF1297157F700CE76F3 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AF0297157F700CE76F3 /* Song.m */; };
+		22786AF429715B4500CE76F3 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AF329715B4500CE76F3 /* Album.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		22786AED2971455800CE76F3 /* Archiving.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Archiving.m; sourceTree = "<group>"; };
 		22786AEF297157F700CE76F3 /* Song.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
 		22786AF0297157F700CE76F3 /* Song.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		22786AF229715B4500CE76F3 /* Album.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		22786AF329715B4500CE76F3 /* Album.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				22786AED2971455800CE76F3 /* Archiving.m */,
 				22786AEF297157F700CE76F3 /* Song.h */,
 				22786AF0297157F700CE76F3 /* Song.m */,
+				22786AF229715B4500CE76F3 /* Album.h */,
+				22786AF329715B4500CE76F3 /* Album.m */,
 			);
 			path = objcHelloWorld;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 				22786ADC296D4BD400CE76F3 /* Square.m in Sources */,
 				22786AEE2971455800CE76F3 /* Archiving.m in Sources */,
 				22786AD1296D2C8300CE76F3 /* main.m in Sources */,
+				22786AF429715B4500CE76F3 /* Album.m in Sources */,
 				22786ADF296E76F400CE76F3 /* UseProperty.m in Sources */,
 				22786AEB2971412A00CE76F3 /* NSMutableArray+IntExt.m in Sources */,
 				22786AD9296D491D00CE76F3 /* Rectangle.m in Sources */,
