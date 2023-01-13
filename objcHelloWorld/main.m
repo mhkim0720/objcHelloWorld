@@ -10,11 +10,81 @@
 #import "Square.h"
 #import "UseProperty.h"
 #import "Tracer.h"
+#import "Student.h"
+
+#import "Archiving.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        ///*
+        //13 Chapter Archiving And Block
+        //NSCoding Protocol
+        //Archiver : Save Data
+        //iOS Foundation => NSKeyedArchiver, NSKeyedUnarchiver. (Searialize)
+        
+        //NSData
+        //Control Binary
+        //NSString - Data Type Converter
+        //Image - UImage
+        
+        Archiving * obj = [[Archiving alloc] init];
+        obj.width = 20;
+        obj.height  = 10;
+        NSLog(@"Obj1 : %@",obj);
+        
+        //Save Object
+        NSString * filePath = @"/Users/digisonic/desktop/mhkim/study/archiving.dat";
+        BOOL ret = [NSKeyedArchiver archiveRootObject:obj toFile:filePath ];
+        NSLog(@"Ret : %d",ret);
+        
+        //Read Object
+        Archiving * obj2 = [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
+        NSLog(@"Obj2 : %@",obj2);
+        
+        //Block Programming => Block is Object And Code
+        //code : parameter, exe code, return value
+        //object  : property, parameter, return value
+        //Asynchorous Type Coding.
+        //NSArry - enumerateObjectsUsingBlock
+        //UIView - animateWithDuration.
+        // -(void)say:(void(^)(void))block;
+        
+        //Declare Block. without parameter.
+        void (^greeting)(void)  = ^{
+                NSLog(@"Call Block ");
+            };
+        greeting();
+        
+        //with parameter
+        int (^sum)(int,int) = ^(int i,int j){
+            return i+ j;
+        };
+        int result = sum(1,2);
+        NSLog(@"1+2 : %d",result);
+        
+        //Array Block
+        NSArray * array = @[@"A",@"B",@"C",@"D"];
+        [array enumerateObjectsUsingBlock:^(id obj,NSUInteger idx, BOOL * stop){
+            NSLog(@"array cycle : value : %@ - index : %ld",obj,idx);
+            
+            if(idx >= 2) *stop = YES;
+        }];
+        
+        
+        /*
+        //12 Chapter - Category And Protocol.
+        //Make Student Class
+        //Expand Category
+        
+        //Category -> Expand Class
+        Student * st = [[Student alloc]init];
+        [st study];
+        [st enroll];
+        
+        //Protocol -> Simailar Class Interface.
+        */
+        
+        /*
         //11 Chapter - Memory
         //ARC (iOS5~ )
         //ptr = nil -> release memory, Dealloc
@@ -36,6 +106,7 @@ int main(int argc, const char * argv[]) {
         //Object Lifecycle,
         //strong(default -> own object ),
         //weak, unsafe_unretained, autoreleaing (NSError) -> (un own object).
+         */
         
         
         /*

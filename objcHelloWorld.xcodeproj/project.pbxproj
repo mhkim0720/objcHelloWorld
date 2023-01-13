@@ -12,6 +12,9 @@
 		22786ADC296D4BD400CE76F3 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786ADB296D4BD400CE76F3 /* Square.m */; };
 		22786ADF296E76F400CE76F3 /* UseProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786ADE296E76F400CE76F3 /* UseProperty.m */; };
 		22786AE22971377300CE76F3 /* Tracer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AE12971377300CE76F3 /* Tracer.m */; };
+		22786AE529713BBA00CE76F3 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AE429713BBA00CE76F3 /* Student.m */; };
+		22786AEB2971412A00CE76F3 /* NSMutableArray+IntExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AEA2971412A00CE76F3 /* NSMutableArray+IntExt.m */; };
+		22786AEE2971455800CE76F3 /* Archiving.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AED2971455800CE76F3 /* Archiving.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +40,12 @@
 		22786ADE296E76F400CE76F3 /* UseProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseProperty.m; sourceTree = "<group>"; };
 		22786AE02971377300CE76F3 /* Tracer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tracer.h; sourceTree = "<group>"; };
 		22786AE12971377300CE76F3 /* Tracer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tracer.m; sourceTree = "<group>"; };
+		22786AE329713BBA00CE76F3 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		22786AE429713BBA00CE76F3 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		22786AE92971412A00CE76F3 /* NSMutableArray+IntExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+IntExt.h"; sourceTree = "<group>"; };
+		22786AEA2971412A00CE76F3 /* NSMutableArray+IntExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+IntExt.m"; sourceTree = "<group>"; };
+		22786AEC2971455800CE76F3 /* Archiving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Archiving.h; sourceTree = "<group>"; };
+		22786AED2971455800CE76F3 /* Archiving.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Archiving.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +87,12 @@
 				22786ADE296E76F400CE76F3 /* UseProperty.m */,
 				22786AE02971377300CE76F3 /* Tracer.h */,
 				22786AE12971377300CE76F3 /* Tracer.m */,
+				22786AE329713BBA00CE76F3 /* Student.h */,
+				22786AE429713BBA00CE76F3 /* Student.m */,
+				22786AE92971412A00CE76F3 /* NSMutableArray+IntExt.h */,
+				22786AEA2971412A00CE76F3 /* NSMutableArray+IntExt.m */,
+				22786AEC2971455800CE76F3 /* Archiving.h */,
+				22786AED2971455800CE76F3 /* Archiving.m */,
 			);
 			path = objcHelloWorld;
 			sourceTree = "<group>";
@@ -140,10 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				22786ADC296D4BD400CE76F3 /* Square.m in Sources */,
+				22786AEE2971455800CE76F3 /* Archiving.m in Sources */,
 				22786AD1296D2C8300CE76F3 /* main.m in Sources */,
 				22786ADF296E76F400CE76F3 /* UseProperty.m in Sources */,
+				22786AEB2971412A00CE76F3 /* NSMutableArray+IntExt.m in Sources */,
 				22786AD9296D491D00CE76F3 /* Rectangle.m in Sources */,
 				22786AE22971377300CE76F3 /* Tracer.m in Sources */,
+				22786AE529713BBA00CE76F3 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
