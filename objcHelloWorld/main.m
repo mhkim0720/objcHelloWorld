@@ -11,12 +11,30 @@
 #import "UseProperty.h"
 #import "Tracer.h"
 #import "Student.h"
-
 #import "Archiving.h"
+#import "Song.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        
+        //14 Example
+        Song * song1 = [[Song alloc] init];
+        song1.title = @"title1";
+        song1.artist = @"artist1";
+        song1.duration = 100;
+        
+        Song * song2 = [[Song alloc] initWithTitle:@"title2" artist:@"artist2"];
+        Song * song3 = [Song songWithTitle:@"title3" artist:@"artist3"];
+        Song * song4 = [Song songWithTitle:@"title4" artist:@"artist4"];
+        Song * song5 = [Song songWithTitle:@"title5" artist:@"artist5"];
+        
+        //[song1 play];
+        
+        
+        
+        
+        /*
         //13 Chapter Archiving And Block
         //NSCoding Protocol
         //Archiver : Save Data
@@ -69,7 +87,7 @@ int main(int argc, const char * argv[]) {
             
             if(idx >= 2) *stop = YES;
         }];
-        
+        */
         
         /*
         //12 Chapter - Category And Protocol.

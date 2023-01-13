@@ -15,6 +15,7 @@
 		22786AE529713BBA00CE76F3 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AE429713BBA00CE76F3 /* Student.m */; };
 		22786AEB2971412A00CE76F3 /* NSMutableArray+IntExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AEA2971412A00CE76F3 /* NSMutableArray+IntExt.m */; };
 		22786AEE2971455800CE76F3 /* Archiving.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AED2971455800CE76F3 /* Archiving.m */; };
+		22786AF1297157F700CE76F3 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 22786AF0297157F700CE76F3 /* Song.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		22786AEA2971412A00CE76F3 /* NSMutableArray+IntExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+IntExt.m"; sourceTree = "<group>"; };
 		22786AEC2971455800CE76F3 /* Archiving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Archiving.h; sourceTree = "<group>"; };
 		22786AED2971455800CE76F3 /* Archiving.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Archiving.m; sourceTree = "<group>"; };
+		22786AEF297157F700CE76F3 /* Song.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		22786AF0297157F700CE76F3 /* Song.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				22786AEA2971412A00CE76F3 /* NSMutableArray+IntExt.m */,
 				22786AEC2971455800CE76F3 /* Archiving.h */,
 				22786AED2971455800CE76F3 /* Archiving.m */,
+				22786AEF297157F700CE76F3 /* Song.h */,
+				22786AF0297157F700CE76F3 /* Song.m */,
 			);
 			path = objcHelloWorld;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				22786ADF296E76F400CE76F3 /* UseProperty.m in Sources */,
 				22786AEB2971412A00CE76F3 /* NSMutableArray+IntExt.m in Sources */,
 				22786AD9296D491D00CE76F3 /* Rectangle.m in Sources */,
+				22786AF1297157F700CE76F3 /* Song.m in Sources */,
 				22786AE22971377300CE76F3 /* Tracer.m in Sources */,
 				22786AE529713BBA00CE76F3 /* Student.m in Sources */,
 			);
